@@ -24,19 +24,19 @@ main img {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px; 
+    border: 1px solid black; /* Fixed: Added 'solid black' */
     padding: 1rem;
     background-color: aliceblue;
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     box-shadow: 0 0 30px gray;
 }
-
 
 p { padding: 0px; }
 
