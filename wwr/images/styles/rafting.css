@@ -1,0 +1,90 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #477EFF;
+    --secondary-color: #99D8FF;
+    --accent1-color: #D3CCC5;
+    --accent2-color: #F3F7F3;
+    --text-color: #333;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--accent2-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+/* Social Media Links */
+footer a img {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
