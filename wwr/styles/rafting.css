@@ -1,4 +1,4 @@
-/* Define CSS Variables */
+
 :root {
     --primary-color: #477EFF;
     --secondary-color: #99D8FF;
@@ -7,7 +7,7 @@
     --text-color: #333;
 }
 
-/* General Styles */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
@@ -25,7 +25,7 @@ p {
     line-height: 1.6;
 }
 
-/* Header Styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ nav a {
     margin: 0 10px;
 }
 
-/* Hero Section */
+
 .hero {
     position: relative;
     text-align: center;
@@ -81,7 +81,7 @@ nav a {
     height: 80px;
 }
 
-/* Social Media Links */
+
 footer a img {
     text-decoration: none;
     width: 40px;
