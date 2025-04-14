@@ -15,12 +15,9 @@ body {
     padding: 0 20px;
 }
 
-h1 {
+h1, h2{
     color: var(--primary-color);
     /* font-family: 'Montserrat', serif; */
-}
-h2 {
-  color: #0e0e0e
 }
 
 p {
