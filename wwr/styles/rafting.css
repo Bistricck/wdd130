@@ -397,3 +397,70 @@ img {
 section {
   margin-bottom: 40px;
 }
+
+/* Trips Page Styles */
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--accent1-color);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #007acc;
+}
+
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.trip-descriptions article {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.trip-descriptions img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trip-table {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: var(--accent1-color);
+}
