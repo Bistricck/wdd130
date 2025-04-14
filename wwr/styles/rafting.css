@@ -288,7 +288,7 @@ footer a img:hover {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: bold;
-    background-color: #1e90ff;
+    background-color: #ececec;
     color: #fff;
     border: none;
     border-radius: 0.3rem;
@@ -341,7 +341,7 @@ footer a img:hover {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #000000;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -402,14 +402,16 @@ section {
 .cta {
   text-align: center;
   padding: 2rem;
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
+  border:#000000
+
 }
 
 .cta-button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #000000;
   font-weight: bold;
   border-radius: 5px;
   text-decoration: none;
@@ -418,7 +420,7 @@ section {
 }
 
 .cta-button:hover {
-  background-color: #007acc;
+  background-color: #002036;
 }
 
 .trip-descriptions {
