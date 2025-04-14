@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #477EFF;
+    --primary-color: #081f55;
     --secondary-color: #99D8FF;
-    --accent1-color: #D3CCC5;
+    --accent1-color: #aee3f6;
     --accent2-color: #F3F7F3;
-    --text-color: #333;
+    --text-color: #0c0c0c;
 }
 
 body {
@@ -126,7 +126,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
     margin-top: 20px;
 }
 
