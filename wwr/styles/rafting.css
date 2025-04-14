@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #081f55;
-    --secondary-color: #99D8FF;
-    --accent1-color: #aee3f6;
-    --accent2-color: #F3F7F3;
-    --text-color: #0c0c0c;
+    --primary-color: #000000;
+    --secondary-color: #3399ff;
+    --accent1-color: #78c8e6;
+    --accent2-color: #e0eee0;
+    --text-color: #000000;
 }
 
 body {
@@ -78,7 +78,7 @@ nav a:hover {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 36, 36, 0.7);
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +90,7 @@ nav a:hover {
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.6);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 5px;
     max-width: 500px;
